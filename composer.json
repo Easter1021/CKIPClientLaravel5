@@ -1,5 +1,5 @@
 {
-    "name": "Easter1021/CKIPClientLaravel5",
+    "name": "easter1021/ckip-client-laravel5",
     "description": "中文斷詞系統",
     "keywords": ["laravel", "CKIPClient", "中文斷詞", "斷詞"],
     "license": "MIT",

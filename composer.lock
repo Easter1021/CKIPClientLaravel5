@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "40a07244eebe894878668f4a581c499e",
-    "content-hash": "de784f44fb066f2369cc79a801ac0d6f",
+    "hash": "581f4c1fd47acb97d1d9bd3bd5fbae12",
+    "content-hash": "472803b50df638df2c4e3554df223867",
     "packages": [
         {
             "name": "fukuball/ckipclient-php",

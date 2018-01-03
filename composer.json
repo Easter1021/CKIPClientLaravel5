@@ -1,0 +1,40 @@
+{
+    "name": "Easter1021/CKIPClientLaravel5",
+    "description": "中文斷詞系統",
+    "keywords": ["laravel", "CKIPClient", "中文斷詞", "斷詞"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.0",
+        "fukuball/ckipclient-php": "^0.0.2"
+    },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "fukuball/ckipclient-php",
+                "version":"0.0.2",
+                "source": {
+                    "url": "git@github.com:fukuball/CKIPClient-PHP.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Easter1021\\CKIPClientLaravel5\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Easter1021\\CKIPClientLaravel5\\ServiceProvider"
+            ],
+            "aliases": {
+                "CKIPClient": "Easter1021\\CKIPClientLaravel5\\Facade"
+            }
+        }
+    }
+}

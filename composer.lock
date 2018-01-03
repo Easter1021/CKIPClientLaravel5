@@ -1,0 +1,31 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "40a07244eebe894878668f4a581c499e",
+    "content-hash": "de784f44fb066f2369cc79a801ac0d6f",
+    "packages": [
+        {
+            "name": "fukuball/ckipclient-php",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:fukuball/CKIPClient-PHP.git",
+                "reference": "master"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": []
+}
